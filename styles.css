@@ -49,19 +49,9 @@ a:visited:hover {
   padding: 0;
   border:1px solid var(--bg-color);
   display: grid;
-  grid-template-rows: 
-  3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw
-  3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw
-  3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw
-  ;
-
-  grid-template-columns: 
-  3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw
-  3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw
-  3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw 3vw
-  ;
+  grid-template-rows: repeat(30, 3vw);
+  grid-template-columns: repeat(30, 3vw);
 }
-
 
 .box {
   border:1px solid var(--bg-color);
